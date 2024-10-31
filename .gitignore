@@ -1,4 +1,16 @@
-venv/
+# Ignore Python cache and virtual environment files
 __pycache__/
-node_modules/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# Ignore SQLite database files if you don’t want them on GitHub
+*.db
+
+# Ignore Jupyter notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# Ignore environment and configuration files
+.env
 .DS_Store
